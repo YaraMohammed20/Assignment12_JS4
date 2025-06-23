@@ -18,7 +18,7 @@ function showHome(user) {
   loginPage.classList.add("hidden");
   registerPage.classList.add("hidden");
   homePage.classList.remove("hidden");
-  document.getElementById("userName").textContent = user.name || "User"; // Fallback to 'User'
+  document.getElementById("userName").textContent = user.name || "User"; 
 }
 
 function validateEmail(email) {
